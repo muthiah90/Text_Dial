@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TextDial</string>
+    <string name="textdial_display_text">Enter your text here</string>
+    <string name="textdial_button_text">Submit</string>
+</resources>

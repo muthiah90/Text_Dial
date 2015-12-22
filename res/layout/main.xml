@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#82BEF3" >
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:onClick="processInputText"
+        android:text="@string/textdial_button_text" />
+
+    <TextView
+        android:id="@+id/activityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/textdial_display_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0D4F8B" />
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activityName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="#FFFFFF"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textColor="#000000"
+        android:textCursorDrawable="@null"
+        tools:ignore="UnusedAttribute" />
+    
+</RelativeLayout>
